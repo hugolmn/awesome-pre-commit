@@ -9,7 +9,9 @@ A curated list of awesome pre-commit hooks.
 <details>
   <summary>Black: The uncompromising Python code formatter</summary>
   
-  #### Github Repository: [black](https://github.com/psf/black)
+  #### Links
+  - GitHub repository: [black](https://github.com/psf/black)
+  - Documentation: [here](https://black.readthedocs.io/en/stable/)
   #### Example
   ```yaml
   repos:
