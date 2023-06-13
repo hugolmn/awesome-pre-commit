@@ -42,6 +42,21 @@ A curated list of awesome pre-commit hooks.
   ```
 </details>
 <details>
+  <summary>isort: Python utility / library to sort imports</summary>
+  
+  ##### Links
+  - GitHub repository: [isort](https://github.com/PyCQA/isort)
+  - Documentation: [here](https://pycqa.github.io/isort/)
+  ##### Example
+  ```yaml
+  - repo: https://github.com/pycqa/isort
+    rev: 5.11.2
+    hooks:
+    - id: isort
+      name: isort (python)
+  ```
+</details>
+<details>
   <summary>Mypy: optional static typing for Python </summary>
   
   ##### Links
