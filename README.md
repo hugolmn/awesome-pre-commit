@@ -42,7 +42,7 @@ A curated list of awesome pre-commit hooks.
   ```
 </details>
 <details>
-  <summary>Mypy: the uncompromising Python code formatter</summary>
+  <summary>Mypy: optional static typing for Python </summary>
   
   ##### Links
   - GitHub repository: [mypy](https://github.com/pre-commit/mirrors-mypy)
