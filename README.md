@@ -7,7 +7,7 @@ A curated list of awesome pre-commit hooks.
 
 ### Python
 <details>
-  <summary>Black: The uncompromising Python code formatter</summary>
+  <summary>Black: the uncompromising Python code formatter</summary>
   
   #### Links
   - GitHub repository: [black](https://github.com/psf/black)
@@ -26,3 +26,21 @@ A curated list of awesome pre-commit hooks.
         language_version: python3.9
   ```
 </details>
+<details>
+  <summary>Ruff: an extremely fast Python linter, written in Rust.</summary>
+  
+  #### Links
+  - GitHub repository: [ruff](https://github.com/astral-sh/ruff)
+  - Documentation: [here](https://beta.ruff.rs/docs/)
+  #### Example
+  ```yaml
+  repos:
+    - repo: https://github.com/astral-sh/ruff-pre-commit
+    # Ruff version.
+    rev: v0.0.272
+    hooks:
+    - id: ruff
+  ```
+</details>
+
+  
