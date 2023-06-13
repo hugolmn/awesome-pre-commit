@@ -7,6 +7,21 @@ A curated list of awesome pre-commit hooks.
 
 ### Python
 <details>
+  <summary>Bandit: a tool designed to find common security issues in Python code</summary>
+  
+  ##### Links
+  - GitHub repository: [bandit](https://github.com/PyCQA/bandit)
+  - Documentation: [here](https://bandit.readthedocs.io/en/latest/)
+  ##### Example
+  ```yaml
+  repos:
+  - repo: https://github.com/PyCQA/bandit
+    rev: '1.7.5' # Update me!
+    hooks:
+    - id: bandit
+  ```
+</details>
+<details>
   <summary>Black: the uncompromising Python code formatter</summary>
   
   ##### Links
